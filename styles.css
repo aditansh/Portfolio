@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.top-nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #ceebebfe;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.top-nav .nav-links{
+
+    list-style: none;
+    margin-left: auto;
+    margin-right: 150px;
+    font-weight: 300;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top-nav .nav-links li{
+
+    display: inline-flex;
+    margin: 10px 40px 10px 0;
+}
+
+.top-nav .nav-links li a{
+
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 22px;
+    transition: all 0.3s ease-in-out;
+    color: rgb(130, 125, 125);
+}
+
+
+.top-nav .nav-links li a:hover{
+
+   color: #201f1f;
+   cursor: pointer;
+}
+
+.home{
+    text-align: center;
+    padding: 100px;
+}
+
+.home .intro h1{
+    margin: 50px auto 20px;
+    font-size: 500%;
+    font-family: "Poppins",cursive;
+}
+
+.home .intro h2{
+    font-size: 200%;
+    margin-bottom: 10px;
+}
+
+.home .intro h3{
+    font-size: 150%;
+}
+
+.about{
+    margin: 20px;
+    text-align: center;
+}
+
+.about .details{
+    text-align: center;
+    margin: 50px 30px 20px;
+    display: flex;
+    flex-direction: row;
+    column-count: 2;
+}
+
+.about .details img{
+    padding: 20px;
+    margin: 0 150px;
+    height: 250px;
+}
+
+.about .details .details-info{
+    padding: 20px;
+    margin-left: 30px;
+    font-size: 500;
+}
+
+.work{
+    margin: 20px;
+    text-align: center;
+}
+
+.work h2{
+    font-size: 200%;
+}
+
+.work .items .projects{
+    display: flex;
+    column-count: 2;
+    align-items: center;
+    justify-content: center;
+}
+
+.work .items .projects .project-card{
+    margin: 20px;
+}
+
+.contact{
+    text-align: center;
+    margin: 20px;
+}
